@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">SWE-DIU</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="chairmanmsg">\n \u00A0 \u00A0 \u00A0 Welcome to Daffodil International University.
+        We are in the era of globalization and the globalization in the sense of economy, education
+        and otheraspects. The system is changing and merging with the information superhighway.
+        The demand of education has been changing with the aspect of global economy and adoption
+        of new technology.\n\n
+        \u00A0 \u00A0 \u00A0 DIU is very concerned about the change of technology and the
+        requirement of human resources in the global market and in view of that change different
+        programs have been introduced and will be introduced in the coming days of DIU. We are also
+        concerned about the human resource demand for the local industry. Adaptation of new programs
+        will enrich the human resource of Bangladesh and DIUs one of the mottos is to convert people
+        to human resources and build them for the local as well as overseas employment. \n\n
+        \u00A0 \u00A0 \u00A0 Innovations in technology and communications have enabled the
+        educational sector to expand its realm in providing education to a wider range of students
+        in extensive areas. Daffodil International University is dedicated to utilizing the latest
+        technologies in its efforts to bring the best possible education to students all over the
+        country. We provide them with the services and opportunities necessary to enable them to
+        complete their respective educational programs successfully.\n\n
+        \u00A0 \u00A0 \u00A0 DIU believes in quality and genuine education and also aware of the
+        phenomenon of genuine and quality education. Daffodil International University ensures
+        experienced and rich faculties, updated curricula and modern environment. Faculties take a
+        genuine interest in educational development of the students and because of the comfortable
+        size of DIU, it is able to provide students with genuine education and intellectual
+        opportunities. In addition, our curricula provide numerous academic and career options for
+        ones path to professionalism. Besides the academic opportunities, at DIU students will also
+        find a host of extracurricular activities to round out their collegiate experience and
+        enrich their resume.\n\n
+        \u00A0 \u00A0 \u00A0 The current time demand is to elevate a university to international
+        standard. The standard has many dimensions: they include the materials which are studied;
+        the courses which are offered; the students who are taught; the faculties who teach them
+        and undertake research; the places where teaching takes place; the environment and context
+        within which teaching and research are undertaken. Above all, internationalization is a
+        state of mind.\n\n
+
+        \u00A0 \u00A0 \u00A0 Keeping the eyes on students career, DIU has introduced short courses
+        like SUN, CISCO, Microsoft Certification courses beside the undergraduate and Masters
+        programs. DIU is conscious how the students could enter into their professional life with
+        a good background and enrich their professional life within short time.\n\n
+
+        \u00A0 \u00A0 \u00A0 I wish every success of all students in their educational and
+        professional pursuits.</string>
+    <string name="headmsg">\n\u00A0 \u00A0 \u00A0 It gives me pride and pleasure to introduce the
+        Department Software Engineering Department (SWE), Daffodil International University (DIU).
+        As you read this, I hope that you will realize that our
+        department recognizes the role the degree of Software Engineering plays in modern day of
+        human life and activity.\n\n
+        \n\u00A0 \u00A0 \u00A0 Department of SWE started its journey with only 15 students. Today
+        the student number stands at 500. The department offers BSc and MSc programs in software
+        engineering. This department has been working with a vision of developing vibrant software
+        and IT professionals to meet twenty first century challenges.  In today’s competitive work
+        environment, earning an advance academic degree is the first step to a highly successful
+        career and if the degree could lead it one of the highest paid jobs in the world then it
+        just gives the career a few steps head start.\n\n
+        \n\u00A0 \u00A0 \u00A0 Our beloved country is full for young people who have the necessary
+        intellectual potential and patriotism to bring about enormous changes to everything
+        concerning the economic welfare of its people. We in SWE are here to help students burgeon
+        their potential into complete professional person.\n\n
+        \n\u00A0 \u00A0 \u00A0 It is really difficult to make a decision when comes to higher studies.
+        To make the right decision at right time dose matter a lot with respect to fulfillment of
+        your desired goal.  SWE invites you of the realm of knowledge and sharing an experience
+        with a difference.\n\n
+        \n\u00A0 \u00A0 \u00A0 I appreciate your interest in our department and programs and would encourage
+        you to stay in touch with us if you have any questions or suggestions.
+    </string>
+    <string name="devinfo">Tanvir Ahmed\nID : 131-35-379\n</string>
+    <string name="devinfo2">Abudullah Al Muhaimin\nID : 131-35-406\n</string>
+
+    <string name="vrstyhsitory">\n\n\u00A0\u00A0\u00A0 \u00A0\u00A0 \u00A0\u00A0 \u00A0\u00A0\u00A0
+    Daffodil International University is one of the finest university in Bangladesh.
+    It is well known for its quality and performance.Daffodil International University believes on
+        change with modern era with information and technology. It is the first IT based university
+        in Bangladesh.
+        \n\n\u00A0\u00A0\u00A0 \u00A0\u00A0 \u00A0\u00A0 \u00A0\u00A0\u00A0 The honorable Chairman
+        of DIU Md. Sabur Khan starts this university with a dream and hope of educating the students
+        using IT.
+        \n\n\u00A0\u00A0\u00A0 \u00A0\u00A0 \u00A0\u00A0 \u00A0\u00A0\u00A0 As a result the
+        university has been started with 67 students registering in the first batch and more than
+        17,000 students have been enrolled till date.
+    </string>
+    <string name="contactvrsty">Contact\n\nAdmission Information and Counseling Office
+    \nDaffodil Tower- 5, Dhanmondi, Dhaka-1207
+    \nPhone: 8129348, 8129402, 8130864, 8129177, Ext: 328
+    \nFax: 88-02-9131947
+    \nshila@daffodilvarsity.edu.bd</string>
+    <string name="deptabout">\n\n\u00A0\u00A0\u00A0 \u00A0\u00A0 \u00A0\u00A0 \u00A0\u00A0\u00A0The
+        department of Software Engineering offers the program of B.Sc. in Software Engineering. The
+        program is designed to produce skilled manpower for global IT market in order to satisfy the
+        growing demands of software professionals throughout the world. It provides the students an
+        opportunity to gain a vast knowledge about the overall Software Engineering process as well
+        as Computer Programming, Computer Systems Engineering, Telecommunication Engineering and
+        Electronics Engineering. The central goal is to create knowledgeable, efficient and skilled
+        software engineering graduates so that they are able to make themselves competent to work on
+        not only with the Software Industries in home country but also with any giant technological
+        organization of the world.</string>
+    <string name="deptcontact">Contact\n\nDaffodil Tower-04 (Main Campus)
+        \n102/1, (4th floor), Shukrabad, Mirpur Road, Dhanmondi, Dhaka-1207
+        \nPhone: 9138234-5, 9136694, 9116774
+        \nFax: +88-02-9131947 </string>
+</resources>

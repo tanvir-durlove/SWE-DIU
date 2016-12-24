@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:id="@+id/chairmanspeech"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/saburkhan"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/designationcharman"
+                android:textStyle="bold|italic"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:gravity="center"
+                android:text="\nMr. Md. Sabur Khan\nHonorable Chairman\nDaffodil International University"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="185dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designationcharman"
+                android:id="@+id/chairmanspeechdetail"
+                android:background="@drawable/border_one"
+                android:textStyle="bold"
+                android:text="@string/chairmanmsg"
+                android:paddingLeft="4sp"
+                android:paddingTop="4sp"
+                android:paddingRight="4sp"
+                android:paddingBottom="4sp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

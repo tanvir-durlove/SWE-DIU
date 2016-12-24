@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:id="@+id/headspeech"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/depthead"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/designationhead"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="8dp"
+                android:gravity="center"
+                android:text="Dr. Touhid Bhuiyan\nHead and Associate Professor\nDepartment of Software Engineering\nDaffodil International University"
+                android:layout_below="@+id/headspeech"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designationhead"
+                android:id="@+id/headmsg"
+                android:background="@drawable/border_one"
+                android:text="@string/headmsg"
+                android:textStyle="bold"
+                android:paddingLeft="4sp"
+                android:paddingTop="4sp"
+                android:paddingRight="4sp"
+                android:paddingBottom="4sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/keepintouch"
+                android:gravity="center"
+                android:text="\n\nKeep in touch\n"
+                android:textSize="20sp"
+                android:layout_below="@+id/headmsg"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/headfacebook"
+                android:src="@drawable/facebook"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@+id/headtwitter"
+                android:layout_toStartOf="@+id/headtwitter" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/headtwitter"
+                android:layout_below="@+id/keepintouch"
+                android:src="@drawable/twitter"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/headlinkedin"
+                android:layout_below="@+id/keepintouch"
+                android:src="@drawable/linkedin"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/headtwitter"
+                android:layout_toEndOf="@+id/headtwitter" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

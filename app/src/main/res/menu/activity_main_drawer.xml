@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Daffodil International University">
+        <menu>
+            <item android:id="@+id/home"
+                android:title="        Home" />
+            <item android:id="@+id/msgofchairman"
+                android:title="        Message From Chairman"/>
+            <item android:id="@+id/vrsty"
+                android:title="        About DIU" />
+        </menu>
+    </item>
+    <item android:title="Departemnt of Software Engineering">
+        <menu>
+            <item android:id="@+id/dept"
+                android:title="        Dept. of SWE" />
+            <item android:id="@+id/msgofhead"
+                android:title="        Message of Dept. Head"/>
+            <item android:id="@+id/deptteacher"
+                android:title="        Teachers"/>
+        </menu>
+    </item>
+    <item android:title="Level Distribution">
+        <menu>
+            <item android:id="@+id/fstyr"
+                android:title="        LEVEL-1" />
+            <item android:id="@+id/scndyr"
+                android:title="        LEVEL-2" />
+            <item android:id="@+id/thrdyr"
+                android:title="        LEVEL-3" />
+            <item android:id="@+id/fourthyr"
+                android:title="        LEVEL-4" />
+        </menu>
+    </item>
+    <item android:id="@+id/photogelary"
+        android:title="Photo Gellary" />
+    <item android:id="@+id/about"
+        android:title="About Apps"/>
+</menu>

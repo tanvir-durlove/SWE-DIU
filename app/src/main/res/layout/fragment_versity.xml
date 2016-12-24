@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/diulogo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/vrstyscrl"
+        android:background="@drawable/border_one"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp"
+        android:paddingBottom="5sp"
+        android:layout_marginBottom="5dp">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/vrstyname"
+                android:text="Daffodil International University"
+                android:textStyle="bold|italic"
+                android:textSize="30sp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vrstyname"
+                android:id="@+id/starts"
+                android:text="\n\nEstablished : 24th January 2002"
+                android:gravity="center"
+                android:textSize="25sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/history"
+                android:layout_below="@+id/starts"
+                android:layout_marginBottom="5sp"
+                android:text="@string/vrstyhsitory"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/history"
+                android:id="@+id/cntctvrsty"
+                android:text="@string/contactvrsty"
+                android:gravity="center"
+                android:layout_marginTop="40sp"
+                android:textStyle="bold"/>
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="300sp"
+                android:id="@+id/mapview"
+                android:layout_below="@+id/cntctvrsty"
+                android:layout_marginTop="20sp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

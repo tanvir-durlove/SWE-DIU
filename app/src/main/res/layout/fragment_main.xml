@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"></ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+        <ImageView
+            android:layout_width="200sp"
+            android:layout_height="100sp"
+            android:id="@+id/homelogo"
+            android:src="@drawable/slogan"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:id="@+id/homedescription"
+            android:text="Dept. of \n Software Engineering"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/homelogo"
+            android:gravity="center"/>
+        <Button
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/homeabout"
+            android:layout_below="@+id/homedescription"
+            android:text="About"
+            android:textSize="30sp"
+            android:background="@drawable/custom_button_one"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/homewebsite"
+            android:text="Visit Website "
+            android:textSize="30sp"
+            android:background="@drawable/custom_button_one"
+            android:layout_below="@+id/homeabout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="79dp" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/homefacebook"
+            android:src="@drawable/facebook"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/imagetwitter"
+            android:layout_toStartOf="@+id/imagetwitter" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imagetwitter"
+            android:src="@drawable/twitter"
+            android:layout_alignParentBottom="true"
+            android:layout_alignTop="@+id/homefacebook"
+            android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/homeother"
+            android:src="@drawable/linkedin"
+            android:layout_alignParentBottom="true"
+            android:layout_alignTop="@+id/imagetwitter"
+            android:layout_toRightOf="@+id/imagetwitter"
+            android:layout_toEndOf="@+id/imagetwitter" />
+    </RelativeLayout>
+</RelativeLayout>
